@@ -3,6 +3,25 @@ body {
     border: 0px;
 }
 
+table {
+    width: 58%;
+ }
+
+ td {
+    background-color:#e7d5bd ;
+ }
+ 
+    #fundo {
+    background-color: #c4d6df54;
+    height: 80px;
+    width: 12px;
+   }  
+   
+   #titulo {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#06381a7a;
+}
 
 a:link {
     font-size: 18px;
