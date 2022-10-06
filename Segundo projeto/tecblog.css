@@ -1,0 +1,52 @@
+body {
+    background-color: #80808050;
+}
+
+#cabecalho{
+    border:0px solid red;
+    background-color: #ffb900;
+    height: 150px;
+    margin:-8px;
+}
+
+.tecblog{
+    font-size: 45px;
+    border:0px solid blue;
+    position: absolute;
+    left:600px;
+    top:50px;
+}
+
+a:link, visited {
+    border:0px solid blue;
+    color:#FFF;
+    padding:5px;
+    position: relative;
+    left:500px;
+    top:120px;
+}
+
+a:hover {
+    background: #FFF;
+    color: #ffb900;
+}
+
+#postagem {
+    background-color: #FFF;
+    width:700px;
+    margin:18px 150px;
+    padding: 1px;
+}
+
+.titulo {
+    color:#ffb900;
+    position: relative;
+    top:-8px;
+    left: 15px;
+}
+
+#sem {
+    position:relative;
+    top:-30px;
+    left: 19px;
+}
