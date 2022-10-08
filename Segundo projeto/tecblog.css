@@ -2,6 +2,23 @@ body {
     background-color: #80808050;
 }
 
+a:link, visited {
+    border:0px solid blue;
+    text-decoration: none;
+    color:#FFF;
+    padding:10px;
+    position: relative;
+    left:415px;
+    top:105px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+a.flink:hover {
+    background: #FFF;
+    color: #ffb900;
+}
+
 #cabecalho{
     border:0px solid red;
     background-color: #ffb900;
@@ -17,77 +34,36 @@ body {
     top:40px;
 }
 
-a:link, visited {
-    border:0px solid blue;
-    text-decoration: none;
-    color:#FFF;
-    padding:10px;
-    position: relative;
-    left:415px;
-    top:105px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-
-a:hover {
-    background: #FFF;
-    color: #ffb900;
-}
-
-
-
-#principal {
+#post {
     background-color: #FFF;
-    width:700px;
-    margin:18px 200px;
-    padding: 1px;
+    height: 630px;
+    width: 720px;
+    margin-right: 680px;
+    position: relative;
+    top:20px;
+    left:160px;
 }
 
-.titulo {
+.titpost {
     color:#ffb900;
     position: relative;
-    top:-8px;
-    left: 15px;
+    top:12px;
+    left:18px;
 }
 
-#sem {
-    position:relative;
-    top:-30px;
-    left: 19px;
+.subt {
+    position: relative;
+    top:-11px;
+    left:20px;
 }
 
 .imagem {
-    position:relative;
-    bottom: 15px;
-    left:19px
-}
-
-#postagens {
-    border:0px solid red;
-    background: #FFF;
-    margin-left: 920px;
-    margin-right: 80px;
-    position:relative;
-    bottom: 547px;
-    height: 250px;
-}
-
-.tit-post {
-    background-color: rgb(207, 202, 202);
-    margin-left: 8px;
-    margin-right: 8px;
     position: relative;
-    top:8px;
-    padding-left: 8px;
-    padding-top: 2px;
-    font-size: 28px;
-    height: 35px;
-
+    left:18px;
 }
 
-.conteudo {
-    border: 3px solid red;
-    margin-left: 8px;
-    margin-right: 8px;
+.paragrafo {
+    margin-right: 78px;
+    position: relative;
+    left:19px;
 }
-
