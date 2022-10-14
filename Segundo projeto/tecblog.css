@@ -7,7 +7,7 @@ body {
 }
 
 a:link, visited {
-    border:0px solid blue;
+    font-family: Franklin Gothic, Arial Bold;
     text-decoration: none;
     color:#FFF;
     padding:10px;
@@ -24,7 +24,6 @@ a.flink:hover {
 }
 
 #cabecalho{
-    border:0px solid red;
     background-color: #ffb900;
     height: 145px;
     margin-top:-8px;
@@ -32,14 +31,26 @@ a.flink:hover {
     margin-right:none;
 }
 
-#tecblog{
+.tec{
+    font-family: Franklin Gothic, Arial Bold;
+    color:#363434 ;
     font-size: 45px;
-        position: absolute;
+    position: absolute;
     left:590px;
-    top:40px;
+    top:30px;
+}
+
+.blog{
+    font-family: Franklin Gothic, Arial Bold;
+    color: #FFF;
+    font-size: 45px;
+    position: absolute;
+    left:655px;
+    top:30px;
 }
 
 .titpost {
+    font-family: Franklin Gothic, Arial Bold;
     color:#ffb900;
     position: relative;
     top:12px;
@@ -64,6 +75,7 @@ a.flink:hover {
 }
 
 a.leia:link, visited {
+    font-family: Franklin Gothic, Arial Bold;
     background: none;
     color: #ffb900;
     position: relative;
@@ -72,6 +84,7 @@ a.leia:link, visited {
 }
 
 .direitos {
+    font-family: Franklin Gothic, Arial Bold;
     background-color: #a09a9ade;
     width: 700px;
     position: absolute;
