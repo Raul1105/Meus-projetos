@@ -26,9 +26,14 @@ body {
     text-indent: -3000px;
 }
 
-
-
 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#topo ul {
     margin: 15px 0;
     padding: 0;
     list-style: none;
@@ -38,11 +43,11 @@ ul {
 }
 
 
-ul li{
+#topo ul li{
     float: left;
 }
 
-ul a {
+#topo ul a {
     display: block;
     padding: 10px 0.9em;
     line-height: 2.8em;
@@ -51,10 +56,44 @@ ul a {
     background: url(../Terceiro_projeto/Imagens/divisor.png) no-repeat right;
 }
 
-ul .atual a {
+#topo ul .atual a {
     background: rgb(214, 17, 17);
 }
 
-ul .horih a:hover {
+#topo ul .horih a:hover {
     color: black;
+}
+
+#conteudo {
+    background: #f5f5f5;
+    margin-top: 50px;
+}
+
+#primario {
+    width: 270px;
+    float:left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 11px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
