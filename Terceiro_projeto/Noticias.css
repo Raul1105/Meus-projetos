@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #fff url(../Terceiro_projeto/Imagens/fundo.png) repeat-x;
+    background: rgb(13, 13, 14) url(../Terceiro_projeto/Imagens/fundo.png) repeat-x;
 }
 
 #container {
@@ -85,6 +85,8 @@ ul {
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
+    height: 400px;
+    background:  url(../Terceiro_projeto/Imagens/fundo-caixa.png) 
 }
 
 #container-rodape{
@@ -97,3 +99,38 @@ ul {
     margin: 0 auto;
     color: #fff;
 }
+
+#entrevistas {
+    background: #294c71 ;
+    margin: 3px;
+    color: #fff;
+    width: 175px;
+    padding: 0 5px 0 -5px;
+    font-size: 25px;
+}
+
+#lateral ul {
+    background: #fff;
+    margin: 0 5px;
+}
+
+#lateral ul a{
+    display: block;
+    color: black;
+    padding-left: 5px;
+    text-decoration: none;
+    line-height: 23px;
+    list-style: none;
+}
+
+#lateral li  {
+    margin: 8px 4px;
+    padding: 7px 5px;
+}
+
+#lateral ul a:hover {
+    color: rgba(0, 0, 0, 0.76);
+    background: url(../Terceiro_projeto/Imagens/marcador.png) no-repeat left center;
+    padding-left: 25px;
+}
+
