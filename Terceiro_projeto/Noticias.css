@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: rgb(13, 13, 14) url(../Terceiro_projeto/Imagens/fundo.png) repeat-x;
+    background: rgb(0, 0, 0) url(../Terceiro_projeto/Imagens/fundo.png) repeat-x;
 }
 
 #container {
@@ -72,13 +72,50 @@ ul {
 #primario {
     width: 270px;
     float:left;
+    height: 320px;
     margin: 0 0 20px 195px;
+    background:  url(../Terceiro_projeto/Imagens/fundo-caixa.png) 
+
+}
+
+#destaques {
+    margin: 3px 5px 0 5px;
+    padding: 0 0 2px 5px;
+    background: #294c71;
+    color: #fff;
+}
+
+#conteudo-caixa {
+    margin: 5px;    
+}
+
+ #nova {
+    background: rgb(150, 24, 24);
+    color:#fff;
+    margin: 0 0 5px 3px;
+    width: 140px;
 }
 
 #secundario {
+    height: 320px;
     width: 270px;
     float: left;
     margin: 0 0 20px 11px;
+    background:  url(../Terceiro_projeto/Imagens/fundo-caixa.png) 
+}
+
+#noticias {
+    margin: 3px 5px 0 5px;
+    padding: 0 0 2px 5px;
+    background: #294c71;
+    color: #fff;
+}
+
+#dr {
+    background: rgb(150, 24, 24);
+    color:rgb(5, 5, 5);
+    margin: 0 0 5px 0;
+    width: 230px;
 }
 
 #lateral {
@@ -102,10 +139,10 @@ ul {
 
 #entrevistas {
     background: #294c71 ;
-    margin: 3px;
+    margin: 3px 5px 0 5px;
+    padding: 0 0 0 5px;
     color: #fff;
-    width: 175px;
-    padding: 0 5px 0 -5px;
+
     font-size: 25px;
 }
 
@@ -134,3 +171,6 @@ ul {
     padding-left: 25px;
 }
 
+.leia a {
+    color: rgb(150, 24, 24);
+}
