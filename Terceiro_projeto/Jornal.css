@@ -86,7 +86,6 @@ ul {
 }
 
 #menul {
-    border:1px solid red;
     width: 200px;
     margin:0 0 0 -880px;
     float: left;
@@ -107,14 +106,14 @@ ul {
 
 #titulo-ult {
     background: #294c71;
-    margin: 3px 3px 3px 3px;
+    margin: 3px 3px;
     padding-left: 5px;
     color: #fff;
 }
 
 #titulo-des {
     background: #294c71;
-    margin:3px 3px 3px 3px;
+    margin:3px 3px;
     padding-left: 5px;
     color: #fff;
 }
@@ -125,4 +124,130 @@ ul {
     width: 125px;
     margin: 10px 0 3px 6px;
     padding-left: 3px;
+}
+
+.leia {
+    display: block;
+    color: rgb(214, 17, 17);
+    margin: 6px;
+}
+
+#titentre {
+    background: #294c71;
+    color: #fff;
+    margin: 3px 3px;
+    padding-left: 3px;
+}
+
+#menul ul {
+    background: #fff;
+    margin: 0 5px;
+}
+
+#menul ul a {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding-left: 7px;
+    line-height: 42px;
+}
+
+#menul ul a:hover {
+    color: rgba(0, 0, 0, 0.76);
+    background: url(../Terceiro_projeto/Imagens/marcador.png) no-repeat left center;
+    padding-left: 25px;
+}
+
+#titulossecun {
+    background: #294c71;
+    color: #fff;
+    margin: 10px 3px 3px 3px;
+    padding-left: 5px;
+}
+
+#conteudo-caixa {
+    margin: 5px;
+}
+
+#lista-mundo li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 55px;
+}
+
+#lista-mundo li a img {
+    float: left;
+    padding: 2px;
+}
+
+#lista-mundo li a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-mundo li a h3 {
+    text-decoration: none;
+    color: rgb(38, 185, 185);
+}
+
+#lista-mundo li a p {
+    text-decoration: none;
+    color: black;
+}
+
+#ultima-lista li {
+    padding: 1px;
+    border-bottom: 1px solid #ccc;
+    height: 55px;
+}
+
+#ultima-lista li a img {
+    float: left;
+    padding: 1px;
+}
+
+#ultima-lista li a {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#ultima-lista li a h3 {
+    text-decoration: none;   
+    color: rgb(38, 185, 185);
+}
+
+#ultima-lista li a p {
+    color: black;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+form {
+    margin: 5px; 
+}
+
+#separando {
+    margin: 5px 0 0 5px;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    position:bottom;
+    color: #fff;
 }
